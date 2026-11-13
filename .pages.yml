@@ -6,8 +6,9 @@ media:
 content:
   - name: pages
     label: Pages du site
-    type: file
+    type: collection
     path: contenu
+    filename: "{primary}.json"
     fields:
       - name: titre
         label: Titre
