@@ -1,8 +1,9 @@
-L’ÉCLAIREUSE — VERSION RECONSTRUITE DEPUIS LES MAQUETTES VALIDÉES
+L’ÉCLAIREUSE — Pages CMS
 
-Ouvrir index.html dans un navigateur.
-Les photographies sont des recadrages des maquettes originales fournies dans la conversation. Elles peuvent contenir des traces de décor ou des éléments graphiques de ces maquettes et ne sont pas des photographies source indépendantes.
-Les textes, prix, durées, coordonnées et mentions légales doivent être vérifiés avant publication.
-Le formulaire de contact est une démonstration et n’envoie pas de messages. La réservation n’est pas encore active.
-
-Wix : impossible d’importer ce site complet comme pages Wix natives. Pour conserver exactement le HTML/CSS, privilégier un hébergement statique (Netlify, Cloudflare Pages ou GitHub Pages).
+1. Sauvegardez votre dépôt GitHub.
+2. Déposez TOUS les fichiers de ce dossier à la RACINE du dépôt (y compris pages.yml et le dossier contenu).
+3. Dans Pages CMS, rechargez la configuration.
+4. Modifiez les champs et enregistrez : GitHub Pages publiera automatiquement.
+5. Les images principales restent celles des maquettes tant que le champ image est vide. Pour les remplacer, importez une image via le champ image.
+6. Les formulaires ne sont pas reliés à un service de réception et les prix restent fictifs.
+7. Pour tester les données JSON en local, servez le dossier via un serveur HTTP ; ouvrir index.html en file:// affiche la version intégrée de secours.

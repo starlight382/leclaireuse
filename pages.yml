@@ -1,0 +1,180 @@
+media:
+  input: images
+  output: /images
+
+content:
+  - name: index
+    label: "Accueil"
+    type: file
+    path: contenu/index.json
+    fields:
+      - name: surtitre
+        label: "Surtitre"
+        type: string
+      - name: titre
+        label: "Titre"
+        type: string
+      - name: introduction
+        label: "Introduction"
+        type: text
+      - name: image_principale
+        label: "Image principale"
+        type: image
+      - name: titre_section
+        label: "Titre section"
+        type: string
+      - name: prestation_1_titre
+        label: "Prestation 1 titre"
+        type: string
+      - name: prestation_1_description
+        label: "Prestation 1 description"
+        type: text
+      - name: prestation_1_image
+        label: "Prestation 1 image"
+        type: image
+      - name: prestation_2_titre
+        label: "Prestation 2 titre"
+        type: string
+      - name: prestation_2_description
+        label: "Prestation 2 description"
+        type: text
+      - name: prestation_2_image
+        label: "Prestation 2 image"
+        type: image
+      - name: prestation_3_titre
+        label: "Prestation 3 titre"
+        type: string
+      - name: prestation_3_description
+        label: "Prestation 3 description"
+        type: text
+      - name: prestation_3_image
+        label: "Prestation 3 image"
+        type: image
+      - name: prestation_4_titre
+        label: "Prestation 4 titre"
+        type: string
+      - name: prestation_4_description
+        label: "Prestation 4 description"
+        type: text
+      - name: prestation_4_image
+        label: "Prestation 4 image"
+        type: image
+  - name: hypnotherapie
+    label: "Hypnothérapie"
+    type: file
+    path: contenu/hypnotherapie.json
+    fields:
+      - name: surtitre
+        label: "Surtitre"
+        type: string
+      - name: titre
+        label: "Titre"
+        type: string
+      - name: introduction
+        label: "Introduction"
+        type: text
+      - name: image_principale
+        label: "Image principale"
+        type: image
+  - name: reiki
+    label: "Reiki"
+    type: file
+    path: contenu/reiki.json
+    fields:
+      - name: surtitre
+        label: "Surtitre"
+        type: string
+      - name: titre
+        label: "Titre"
+        type: string
+      - name: introduction
+        label: "Introduction"
+        type: text
+      - name: image_principale
+        label: "Image principale"
+        type: image
+  - name: yoga
+    label: "Yoga"
+    type: file
+    path: contenu/yoga.json
+    fields:
+      - name: surtitre
+        label: "Surtitre"
+        type: string
+      - name: titre
+        label: "Titre"
+        type: string
+      - name: introduction
+        label: "Introduction"
+        type: text
+      - name: image_principale
+        label: "Image principale"
+        type: image
+  - name: cartomancie
+    label: "Cartomancie"
+    type: file
+    path: contenu/cartomancie.json
+    fields:
+      - name: surtitre
+        label: "Surtitre"
+        type: string
+      - name: titre
+        label: "Titre"
+        type: string
+      - name: introduction
+        label: "Introduction"
+        type: text
+      - name: image_principale
+        label: "Image principale"
+        type: image
+  - name: a-propos
+    label: "À propos"
+    type: file
+    path: contenu/a-propos.json
+    fields:
+      - name: surtitre
+        label: "Surtitre"
+        type: string
+      - name: titre
+        label: "Titre"
+        type: string
+      - name: introduction
+        label: "Introduction"
+        type: text
+      - name: image_principale
+        label: "Image principale"
+        type: image
+  - name: contact
+    label: "Contact"
+    type: file
+    path: contenu/contact.json
+    fields:
+      - name: surtitre
+        label: "Surtitre"
+        type: string
+      - name: titre
+        label: "Titre"
+        type: string
+      - name: introduction
+        label: "Introduction"
+        type: text
+      - name: image_principale
+        label: "Image principale"
+        type: image
+  - name: rendez-vous
+    label: "Prendre rendez-vous"
+    type: file
+    path: contenu/rendez-vous.json
+    fields:
+      - name: surtitre
+        label: "Surtitre"
+        type: string
+      - name: titre
+        label: "Titre"
+        type: string
+      - name: introduction
+        label: "Introduction"
+        type: text
+      - name: image_principale
+        label: "Image principale"
+        type: image
