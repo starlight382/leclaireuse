@@ -1,0 +1,10 @@
+
+media:
+  input: images
+  output: /images
+
+content:
+  - name: images
+    label: Images du site
+    type: media
+    path: images
