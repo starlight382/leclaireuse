@@ -1,0 +1,8 @@
+L’ÉCLAIREUSE — VERSION RECONSTRUITE DEPUIS LES MAQUETTES VALIDÉES
+
+Ouvrir index.html dans un navigateur.
+Les photographies sont des recadrages des maquettes originales fournies dans la conversation. Elles peuvent contenir des traces de décor ou des éléments graphiques de ces maquettes et ne sont pas des photographies source indépendantes.
+Les textes, prix, durées, coordonnées et mentions légales doivent être vérifiés avant publication.
+Le formulaire de contact est une démonstration et n’envoie pas de messages. La réservation n’est pas encore active.
+
+Wix : impossible d’importer ce site complet comme pages Wix natives. Pour conserver exactement le HTML/CSS, privilégier un hébergement statique (Netlify, Cloudflare Pages ou GitHub Pages).
