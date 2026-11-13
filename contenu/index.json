@@ -1,19 +1,3 @@
 {
-  "surtitre": "Hypnothérapie · Reiki · Yoga · Cartomancie",
-  "titre": "Retrouver le chemin vers soi.",
-  "introduction": "Un espace pour se reconnecter à soi, retrouver son équilibre et avancer à son rythme.",
-  "image_principale": "",
-  "titre_section": "Des pratiques pour vous accompagner",
-  "prestation_1_titre": "Hypnothérapie",
-  "prestation_1_description": "Explorer vos ressources intérieures et dépasser vos blocages.",
-  "prestation_1_image": "",
-  "prestation_2_titre": "Reiki",
-  "prestation_2_description": "Retrouver harmonie et sérénité par l’énergie.",
-  "prestation_2_image": "",
-  "prestation_3_titre": "Yoga",
-  "prestation_3_description": "Se reconnecter à son corps et à son souffle.",
-  "prestation_3_image": "",
-  "prestation_4_titre": "Cartomancie",
-  "prestation_4_description": "Éclairer vos choix et écouter votre intuition.",
-  "prestation_4_image": ""
+  "titre": "Accueil"
 }
