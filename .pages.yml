@@ -4,7 +4,17 @@ media:
   output: /images
 
 content:
-  - name: images
-    label: Images du site
-    type: media
-    path: images
+  - name: pages
+    label: Pages du site
+    type: file
+    path: contenu
+    fields:
+      - name: titre
+        label: Titre
+        type: string
+      - name: description
+        label: Description
+        type: text
+      - name: image
+        label: Image principale
+        type: image
