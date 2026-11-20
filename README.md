@@ -16,3 +16,7 @@
 
 
 Mise à jour : page d’accueil reproduite depuis la capture de référence. Les photographies sont des recadrages de la capture fournie (qualité limitée) ; les originaux pourront les remplacer plus tard. Les autres pages restent inchangées.
+
+
+## Polices
+Libre Caslon Text Regular et Avenir Light sont incluses dans assets/fonts/. Vérifiez les conditions de licence applicables à chaque fichier, notamment pour la diffusion web.
