@@ -49,3 +49,17 @@
 /* Charte typographique unifiée */
 .homepage .logo,.homepage h1,.homepage h2,.homepage h3{font-family:'Libre Caslon Local',Georgia,serif!important;font-weight:400;}
 .homepage .nav a,.homepage .eyebrow,.homepage .intro,.homepage .home-card p,.homepage .btn,.homepage .more,.homepage footer{font-family:'Avenir Light Local',Arial,sans-serif;}
+
+/* V5 : hero plus compact. Conserve les 26px entre le paragraphe et le bouton,
+   et ménage environ 26px sous le bouton avant la ligne de séparation. */
+@media (min-width:761px){
+  .homepage .home-hero{height:auto;min-height:0;}
+  .homepage .hero-copy{padding-top:24px;padding-bottom:26px;}
+  .homepage .eyebrow{margin-bottom:15px;}
+  .homepage h1{margin-bottom:20px;}
+  .homepage .btn{margin-top:26px;}
+  .homepage .hero-photo{height:auto;align-self:stretch;}
+}
+@media (max-width:760px){
+  .homepage .hero-copy{padding-bottom:30px;}
+}
