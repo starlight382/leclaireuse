@@ -1,7 +1,7 @@
 /* Page d’accueil — reproduction de la capture 1536 × 1024 */
-.homepage{background:#f4e9df;color:#342a1f;font-family:Jost,Arial,sans-serif;line-height:1.4}
+.homepage{background:#f4e9df;color:#342a1f;font-family:'Avenir Light Local',Arial,sans-serif;line-height:1.4}
 .homepage .header{height:105px;padding:0 clamp(26px,5.25vw,82px);background:linear-gradient(90deg,#f7eee6 0%,#f7eee6 45%,#ebd7c1 100%);gap:40px;position:relative}
-.homepage .logo{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(37px,3.35vw,54px);letter-spacing:-.045em;line-height:1;color:#342a1f}
+.homepage .logo{font-family:'Libre Caslon Local',Georgia,serif;font-size:clamp(37px,3.35vw,54px);letter-spacing:-.045em;line-height:1;color:#342a1f}
 .homepage .nav{gap:clamp(14px,2.8vw,45px);flex-wrap:nowrap}
 .homepage .nav a{font-size:clamp(12px,1.02vw,16px);font-weight:400;white-space:nowrap;padding:8px 0}
 .homepage .nav a.active{border-bottom:1px solid #7c6c58;text-decoration:none}
@@ -9,7 +9,7 @@
 .homepage .home-hero:before{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,#f7eee6 0%,#f7eee6 34%,rgba(247,238,230,.96) 39%,rgba(247,238,230,.54) 47%,transparent 57%)}
 .homepage .hero-copy{position:relative;z-index:2;display:block;padding:43px 0 0 clamp(26px,5.6vw,86px);width:min(720px,105%);justify-content:initial}
 .homepage .eyebrow{font-size:12px;letter-spacing:.22em;margin:0 0 21px;white-space:nowrap}
-.homepage h1{font-family:'Cormorant Garamond',Georgia,serif;font-weight:300;letter-spacing:-.055em;font-size:clamp(66px,6.7vw,104px);line-height:.89;margin:0 0 28px;white-space:nowrap}
+.homepage h1{font-family:'Libre Caslon Local',Georgia,serif;font-weight:300;letter-spacing:-.055em;font-size:clamp(66px,6.7vw,104px);line-height:.89;margin:0 0 28px;white-space:nowrap}
 .homepage .intro{font-size:18px;line-height:1.52;color:#6c6257;margin:0;max-width:520px}
 .homepage .btn{margin-top:26px;background:#8d855b;border-radius:30px;padding:15px 28px 14px 40px;font-size:14px;letter-spacing:.11em;display:inline-flex;align-items:center;gap:22px;min-height:54px}
 .homepage .btn span{font-size:26px;line-height:0;font-weight:300}
@@ -45,3 +45,7 @@
 @media(max-width:1350px){.homepage .header{justify-content:space-between}.homepage .menu-toggle{display:block;border:0;background:transparent;color:var(--ink);font-size:26px;cursor:pointer}.homepage .nav{display:none;width:100%;flex-direction:column;align-items:flex-start;gap:12px;padding:16px 0}.homepage .nav.open{display:flex}}
 @media(max-width:1200px){.homepage h1{font-size:clamp(58px,6.5vw,85px)}.homepage .intro{font-size:clamp(18px,1.9vw,23px)}}
 @media(max-width:760px){.homepage .logo{font-size:clamp(32px,7vw,45px)}.homepage h1{font-size:clamp(48px,10vw,70px);white-space:normal}.homepage .home-services h2{font-size:clamp(34px,7vw,45px)}.homepage .home-card h3{font-size:clamp(25px,5vw,30px)}.homepage .intro{font-size:clamp(18px,4.5vw,23px)}.homepage .home-card p{font-size:18px}}
+
+/* Charte typographique unifiée */
+.homepage .logo,.homepage h1,.homepage h2,.homepage h3{font-family:'Libre Caslon Local',Georgia,serif!important;font-weight:400;}
+.homepage .nav a,.homepage .eyebrow,.homepage .intro,.homepage .home-card p,.homepage .btn,.homepage .more,.homepage footer{font-family:'Avenir Light Local',Arial,sans-serif;}
