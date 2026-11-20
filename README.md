@@ -13,3 +13,6 @@
 - Le formulaire de contact est volontairement non fonctionnel : il n’envoie aucun message.
 - Le bouton de réservation mène à la section tarifs ; aucun système de prise de rendez-vous n’est connecté.
 - Pour une reproduction fidèle, fournir des captures complètes des huit pages et les fichiers d’images/SVG originaux.
+
+
+Mise à jour : page d’accueil reproduite depuis la capture de référence. Les photographies sont des recadrages de la capture fournie (qualité limitée) ; les originaux pourront les remplacer plus tard. Les autres pages restent inchangées.
