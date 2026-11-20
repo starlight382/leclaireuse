@@ -1,9 +1,0 @@
-/* En-tête commun à toutes les pages : mêmes couleurs, dimensions, marges et typographies que l'accueil V5. */
-html{scroll-padding-top:120px}
-body.homepage .header{position:sticky;top:0;z-index:1000;height:105px;min-height:105px;padding:0 clamp(26px,5.25vw,82px);background:linear-gradient(90deg,#f7eee6 0%,#f7eee6 45%,#ebd7c1 100%);display:flex;align-items:center;gap:40px;box-shadow:none}
-body.homepage .header .logo{font-family:'Libre Caslon Local',Georgia,serif!important;font-size:45px;font-weight:400;letter-spacing:normal;line-height:1;color:#342a1f;text-decoration:none}
-body.homepage .header .nav{gap:clamp(14px,2.8vw,45px);flex-wrap:nowrap;align-items:center;justify-content:flex-end}
-body.homepage .header .nav a{font-family:'Avenir Light Local',Arial,sans-serif;font-size:20px;font-weight:300;white-space:nowrap;padding:8px 0;text-decoration:none}
-body.homepage .header .nav a.active{border-bottom:1px solid #7c6c58}
-@media(max-width:1350px){body.homepage .header{justify-content:space-between;flex-wrap:wrap;height:auto;min-height:90px;padding-top:14px;padding-bottom:14px;gap:8px}body.homepage .header .menu-toggle{display:block;border:0;background:transparent;color:#342a1f;font-size:26px;cursor:pointer}body.homepage .header .nav{display:none;width:100%;flex-direction:column;align-items:flex-start;gap:12px;padding:16px 0}body.homepage .header .nav.open{display:flex}}
-@media(max-width:760px){body.homepage .header{min-height:76px}body.homepage .header .logo{font-size:clamp(32px,7vw,45px)}}
