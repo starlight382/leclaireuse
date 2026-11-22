@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="fr"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="L’éclaireuse — Hypnothérapie, Reiki, Yoga et Cartomancie" name="description"/><title>L’éclaireuse — Reiki</title><link href="assets/style.css" rel="stylesheet"/><link href="assets/reiki-copie.css?v=25" rel="stylesheet"/></head><body class="reiki-page"><header class="header"><a class="logo" href="index.html">L’éclaireuse</a><button aria-expanded="false" aria-label="Ouvrir le menu" class="menu-toggle">☰</button><nav aria-label="Navigation principale" class="nav"><a href="index.html">Accueil</a><a href="hypnotherapie.html">Hypnothérapie</a><a aria-current="page" class="active" href="reiki.html">Reiki</a><a href="yoga.html">Yoga</a><a href="cartomancie.html">Cartomancie</a><a href="a-propos.html">À propos</a><a href="contact.html">Contact</a><a href="prendre-rendez-vous.html">Prendre rendez-vous</a></nav></header><main><section class="home-hero"><div class="hero-copy"><h1>Reiki</h1><h2 class="hero-subtitle">Se reconnecter à son énergie vitale</h2><p class="intro">Le Reiki est une pratique énergétique douce qui favorise l'harmonie du corps et de l'esprit, apaise les tensions et stimule le processus naturel d'auto-guérison.</p><a class="btn hypno-understand-cta hypno-hero-cta" href="#decouvrir-reiki">En savoir plus <span aria-hidden="true">⟶</span></a></div><div aria-label="Femme assise face à une fenêtre dans une lumière dorée" class="hero-photo" role="img"></div></section><section class="home-services"><h2>Les bienfaits du Reiki</h2><div aria-label="Les bienfaits de l’hypnothérapie" class="hypno-benefits">
+<div class="hypno-benefit"><span class="hypno-icon-circle"><img alt="" src="assets/waves-horizontal.svg"/></span><p>Équilibre<br/>émotionnel</p></div>
+<div class="hypno-benefit"><span class="hypno-icon-circle"><img alt="" src="assets/soleil.svg"/></span><p>Harmonisation<br/>énergétique</p></div>
+<div class="hypno-benefit"><span class="hypno-icon-circle"><img alt="" src="assets/star.svg"/></span><p>Bien-être<br/>global</p></div>
+</div>
+</section>
+<section aria-label="Citation sur l’hypnose" class="hypno-quote-band"><p>« Une énergie douce pour un bien-être durable. »</p></section><section class="hypno-understand" id="decouvrir-reiki"><div class="hypno-understand-image"><img alt="Une femme en méditation dans une pièce lumineuse aux tons naturels" loading="lazy" src="assets/hypnotherapie-voyage-interieur.jpg"/></div><div class="hypno-understand-copy"><div class="hypno-understand-heading"><div aria-hidden="true" class="hypno-lotus-rule"><span></span><img alt="" src="assets/lotus-flower-121056827.svg"/><span></span></div><p class="hypno-kicker">DÉCOUVRIR LE REIKI</p></div><h2>Une parenthèse de douceur et de reconnexion</h2><div class="hypno-understand-text"><p>Le Reiki est une pratique énergétique d'origine japonaise, fondée sur l'imposition des mains et la recherche d'un équilibre intérieur.</p><p>Lors d'une séance, vous êtes confortablement installé, habillé, dans une atmosphère calme et apaisante. Le praticien place ses mains sur différentes zones du corps ou légèrement au-dessus, dans une démarche respectueuse et bienveillante.</p><p>Cette expérience invite à ralentir, à relâcher les tensions et à porter une attention plus profonde à ses sensations.</p><p>Le Reiki est souvent recherché comme un moment de relaxation, de recentrage et de ressourcement personnel. Il peut être vécu comme une pause précieuse dans le rythme du quotidien.</p></div><a class="hypno-understand-cta" href="prendre-rendez-vous.html">Prendre rendez-vous <span aria-hidden="true">⟶</span></a></div></section>
+</main><footer><div class="footer-links"><a href="politique-de-confidentialite.html">Politique de confidentialité</a><a href="mentions-legales.html">Mentions légales</a><a href="politique-de-cookies.html">Politique de cookies</a></div><small>© L’éclaireuse</small></footer><script src="assets/main.js"></script><script>
+(function () {
+  const link = document.querySelector('.hypno-hero-cta[href="#decouvrir-reiki"]');
+  const target = document.getElementById('decouvrir-reiki');
+  if (!link || !target) return;
+  link.addEventListener('click', function (event) {
+    event.preventDefault();
+    const destination = Math.max(0, target.getBoundingClientRect().top + window.scrollY);
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      window.scrollTo(0, destination);
+      history.replaceState(null, '', '#decouvrir-reiki');
+      return;
+    }
+    const start = window.scrollY;
+    const distance = destination - start;
+    const duration = 1000;
+    let startTime;
+    // Lissage progressif avec accélération et décélération douces.
+    function animate(timestamp) {
+      if (startTime === undefined) startTime = timestamp;
+      const t = Math.min((timestamp - startTime) / duration, 1);
+      const ease = t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+      window.scrollTo({ top: start + distance * ease, behavior: 'instant' });
+      if (t < 1) requestAnimationFrame(animate);
+      else history.replaceState(null, '', '#decouvrir-reiki');
+    }
+    requestAnimationFrame(animate);
+  });
+})();
+</script></body></html>
