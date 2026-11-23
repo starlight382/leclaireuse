@@ -1,0 +1,40 @@
+/* V44 — uniquement la page Prendre rendez-vous. Accueil et autres pages inchangées. */
+.booking-page .hero-copy h1 {font-size:75px;line-height:1.05}
+.booking-page .hero-copy .intro {max-width:580px}
+.booking-page .booking-content {background:#f7f0e9;padding:64px 30px 80px;color:#4f4239}
+.booking-page .booking-inner {max-width:1180px;margin:0 auto}
+.booking-page .booking-content h2 {font-family:"Libre Caslon Text",Georgia,serif;font-weight:400;font-size:45px;line-height:1.2;text-align:center;margin:0 0 45px}
+.booking-page .booking-steps {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;text-align:center;margin-bottom:90px}
+.booking-page .booking-step {display:flex;flex-direction:column;align-items:center;gap:13px}
+.booking-page .booking-step img {width:62px;height:62px;object-fit:contain;filter:sepia(.25)}
+.booking-page .step-number {font:14px Arial,sans-serif;letter-spacing:.15em;color:#b49c80}
+.booking-page .booking-step p {font-family:"Avenir Light",Avenir,sans-serif;font-size:18px;line-height:1.5;margin:0}
+.booking-page .booking-content .booking-prices-title {margin-bottom:40px;scroll-margin-top:90px}
+.booking-page .booking-prices {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;margin-bottom:80px}
+.booking-page .booking-price {background:#fffaf6;overflow:hidden;display:flex;flex-direction:column}
+.booking-page .booking-price>img {width:100%;aspect-ratio:4/3;object-fit:cover}
+.booking-page .booking-price>div {padding:22px;display:flex;flex-direction:column;flex:1}
+.booking-page .booking-price h3 {font-family:"Libre Caslon Text",Georgia,serif;font-size:29px;font-weight:400;margin:0 0 12px}
+.booking-page .booking-price p {font-family:"Avenir Light",Avenir,sans-serif;font-size:17px;line-height:1.5;margin:0 0 22px;flex:1}
+.booking-page .price-meta {border-top:1px solid #dfcdbd;padding-top:16px;display:flex;justify-content:space-between;align-items:center;font:18px "Avenir Light",Avenir,sans-serif}
+.booking-page .price-meta strong {font-weight:700}
+.booking-page .booking-info {padding:42px 30px;background:#eee0d2;text-align:center}
+.booking-page .booking-info-heading {display:flex;align-items:center;justify-content:center;gap:15px;margin-bottom:22px}
+.booking-page .booking-info-heading img {height:34px;width:34px}
+.booking-page .booking-content .booking-info h2 {font-size:35px;margin:0}
+.booking-page .booking-info p {font-family:"Avenir Light",Avenir,sans-serif;font-size:20px;line-height:1.6;margin:9px 0}
+.booking-page .booking-goodbye {display:flex;flex-direction:column;align-items:center;padding:70px 0 0}
+.booking-page .booking-goodbye img {width:52px;height:52px;margin-bottom:20px}
+.booking-page .booking-content .booking-goodbye h2 {font-size:35px;margin:0}
+@media(max-width:900px){.booking-page .booking-steps,.booking-page .booking-prices{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.booking-page .hero-copy h1{font-size:clamp(48px,10vw,75px)}.booking-page .booking-content{padding:48px 20px 60px}.booking-page .booking-content h2{font-size:35px}.booking-page .booking-steps{gap:28px 10px;margin-bottom:65px}.booking-page .booking-step p{font-size:15px}.booking-page .booking-step img{width:48px;height:48px}.booking-page .booking-prices{gap:15px}.booking-page .booking-price>div{padding:15px}.booking-page .booking-price h3{font-size:23px}.booking-page .booking-price p{font-size:15px}.booking-page .booking-info{padding:30px 18px}.booking-page .booking-content .booking-info h2{font-size:28px}.booking-page .booking-info p{font-size:17px}}
+@media(max-width:430px){.booking-page .booking-prices{grid-template-columns:1fr}}
+
+/* V45 — titre du héros aligné sur les pages de prestations, sans retour à la ligne. */
+@media (min-width:761px) {
+  body.booking-page .home-hero .hero-copy h1 {font-size:75px !important;line-height:1.06;letter-spacing:normal;white-space:nowrap;}
+  body.booking-page .home-hero .hero-copy {padding-top:45px;padding-left:clamp(26px,5.6vw,86px);width:max-content;max-width:none;}
+}
+@media (max-width:760px) {
+  body.booking-page .home-hero .hero-copy h1 {font-size:clamp(38px,8vw,75px);white-space:normal;}
+}
